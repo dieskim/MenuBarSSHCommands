@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A86DAA952A682ECF00F69B37 /* MenuBarSSHCommandsData.json in Resources */ = {isa = PBXBuildFile; fileRef = A86DAA942A682ECF00F69B37 /* MenuBarSSHCommandsData.json */; };
 		A87AAFCF2A66D96500A665B4 /* MenuBarSSHCommandsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AAFCE2A66D96500A665B4 /* MenuBarSSHCommandsApp.swift */; };
 		A87AAFD12A66D96500A665B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AAFD02A66D96500A665B4 /* ContentView.swift */; };
 		A87AAFD32A66D96600A665B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87AAFD22A66D96600A665B4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		A87AAFE12A66D96600A665B4 /* MenuBarSSHCommandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AAFE02A66D96600A665B4 /* MenuBarSSHCommandsTests.swift */; };
 		A87AAFEB2A66D96600A665B4 /* MenuBarSSHCommandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AAFEA2A66D96600A665B4 /* MenuBarSSHCommandsUITests.swift */; };
 		A87AAFED2A66D96600A665B4 /* MenuBarSSHCommandsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AAFEC2A66D96600A665B4 /* MenuBarSSHCommandsUITestsLaunchTests.swift */; };
+		A87AAFFE2A678E2600A665B4 /* SSHButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87AAFFD2A678E2600A665B4 /* SSHButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A86DAA942A682ECF00F69B37 /* MenuBarSSHCommandsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MenuBarSSHCommandsData.json; sourceTree = "<group>"; };
 		A87AAFCB2A66D96500A665B4 /* MenuBarSSHCommands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBarSSHCommands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87AAFCE2A66D96500A665B4 /* MenuBarSSHCommandsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarSSHCommandsApp.swift; sourceTree = "<group>"; };
 		A87AAFD02A66D96500A665B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		A87AAFE62A66D96600A665B4 /* MenuBarSSHCommandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuBarSSHCommandsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87AAFEA2A66D96600A665B4 /* MenuBarSSHCommandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarSSHCommandsUITests.swift; sourceTree = "<group>"; };
 		A87AAFEC2A66D96600A665B4 /* MenuBarSSHCommandsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarSSHCommandsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A87AAFFD2A678E2600A665B4 /* SSHButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				A87AAFCE2A66D96500A665B4 /* MenuBarSSHCommandsApp.swift */,
+				A86DAA942A682ECF00F69B37 /* MenuBarSSHCommandsData.json */,
 				A87AAFD02A66D96500A665B4 /* ContentView.swift */,
 				A87AAFD22A66D96600A665B4 /* Assets.xcassets */,
 				A87AAFD72A66D96600A665B4 /* MenuBarSSHCommands.entitlements */,
 				A87AAFD42A66D96600A665B4 /* Preview Content */,
+				A87AAFFD2A678E2600A665B4 /* SSHButtonView.swift */,
 			);
 			path = MenuBarSSHCommands;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			files = (
 				A87AAFD62A66D96600A665B4 /* Preview Assets.xcassets in Resources */,
 				A87AAFD32A66D96600A665B4 /* Assets.xcassets in Resources */,
+				A86DAA952A682ECF00F69B37 /* MenuBarSSHCommandsData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A87AAFD12A66D96500A665B4 /* ContentView.swift in Sources */,
+				A87AAFFE2A678E2600A665B4 /* SSHButtonView.swift in Sources */,
 				A87AAFCF2A66D96500A665B4 /* MenuBarSSHCommandsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = " Please allow Menu Bar SSH Commands to send AppleEvents to the Terminal";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -401,6 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = " Please allow Menu Bar SSH Commands to send AppleEvents to the Terminal";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -422,6 +432,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MenuBarSSHCommands/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +458,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MenuBarSSHCommands/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

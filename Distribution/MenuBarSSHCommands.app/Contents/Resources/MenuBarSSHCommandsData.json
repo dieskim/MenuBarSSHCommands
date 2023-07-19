@@ -1,0 +1,58 @@
+{
+  "_comments": [
+      "Valid terminals include: 'Terminal' or 'iTerm' (Suggested)",
+  ],
+  "terminal": "iTerm",
+  "data": [
+    {
+      "actions": [
+        {
+          "name": "Action1",
+          "command": "ssh admin@host.com"
+        }
+      ]
+    },
+    {
+      "section": [
+        {
+          "name": "Section 1",
+          "actions": [
+            {
+              "name": "Action 2",
+              "command": "cd ~/"
+            },
+            {
+              "name": "Action 3",
+              "command": "ls"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "name": "Action 4",
+          "command": "ssh admin@host.com"
+        }
+      ]
+    },
+    {
+      "section": [
+        {
+          "name": "Section 2",
+          "actions": [
+            {
+              "name": "Action 5",
+              "command": "ssh admin@host.com"
+            },
+            {
+              "name": "Action 6",
+              "command": "ssh admin@host.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
