@@ -20,3 +20,7 @@ A simple Terminal and SSH Command Shortcut Menu Bar App for macOS
 ## Credits
 
 MenuBarSSHCommands was inspired by [Shuttle](https://github.com/fitztrev/shuttle) and [SSHMenu](http://sshmenu.sourceforge.net/), the GNOME applet for Linux.
+
+## License
+
+This project is licensed under the terms of the [GNU General Public License version 3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html).
