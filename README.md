@@ -1,5 +1,5 @@
 # MenuBarSSHCommands
-A simple Terminal and SSH Command Shortcut Menu Bar App for built for MacOS Ventura using SwiftUI's MenuBarExtra. Provided as Open Source for Security of the end user.
+A simple Terminal and SSH Command Shortcut Menu Bar App for built for MacOS Ventura using SwiftUI's MenuBarExtra. Provided as Open Source for Security of the end user. Any Support appreciated.
 
 <a href="https://www.buymeacoffee.com/dieskim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
