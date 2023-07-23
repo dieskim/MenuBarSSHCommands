@@ -5,7 +5,7 @@
   "terminal": "iTerm",
   "data": [
     {
-      "actions": [
+      "action": [
         {
           "name": "Action1",
           "command": "ssh admin@host.com"
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "actions": [
+      "action": [
         {
           "name": "Action 4",
           "command": "ssh admin@host.com"
