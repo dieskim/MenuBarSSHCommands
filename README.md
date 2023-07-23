@@ -3,6 +3,8 @@ A simple Terminal and SSH Command Shortcut Menu Bar App for macOS
 
 <a href="https://www.buymeacoffee.com/dieskim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
+![How Shuttle works](https://raw.githubusercontent.com/dieskim/MenuBarSSHCommands/main/Distribution/MenuBarSSHCommands.gif)
+
 ## Installation
 
 1. Download latest DMG from the MenuBarSSHCommands [releases](https://github.com/dieskim/MenuBarSSHCommands/releases)
